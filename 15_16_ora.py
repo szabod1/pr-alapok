@@ -81,7 +81,7 @@ b = "Hello, World!"
 print(b[:5])  # Hello
 '''
 #---------------------------------------------
-
+'''
 a = 'Hello World!'
 
 szamlalo = 1
@@ -89,3 +89,87 @@ for x in a:
     if szamlalo % 2 == 0:
         print(a[szamlalo-1], end='')
     szamlalo = szamlalo + 1    
+'''
+#---------------------------------------------
+'''
+b = "Hello, World!"
+
+print(b[2:])  # llo, World!
+'''
+#--------------------------------------------
+'''
+a = "Hello, World!"
+
+print(a.upper())
+'''
+#-----------------------------------------
+'''
+a = "Hello, World!"
+
+print(a.lower())
+'''
+#-------------------------------------------
+'''
+a = " Hello, World! "
+
+print(a.strip())  # returns "Hello, World!"
+print(len(a))
+'''
+#-------------------------------------------
+'''
+a = "Jello, World!"
+
+print(a.replace("J", "H"))
+'''
+#----------------------------------------------
+'''
+a = "Hello, World!"
+
+print(a.split(","))  # returns ['Hello', ' World!']
+lista = a.split(";")
+print(lista[3])
+
+'''
+#----------------------------------------------------
+'''
+a = "Hello"
+
+b = "World"
+
+c = a + b
+
+print(c)
+'''
+#------------------------------------------------------
+'''
+a = "Hello"
+
+b = "World"
+
+c = a + " " + b
+
+print(c)
+'''
+#-------------------------------------------------------
+'''
+age = 36
+
+txt = "My name is John, I am " + age
+
+print(txt)
+'''
+#-----------------------------------------------
+'''
+quantity = 3
+
+itemno = 567
+
+price = 49.95
+
+myorder = "I want {} pieces of item {} for {} dollars."
+
+print(myorder.format(quantity, itemno, price))
+'''
+#---------------------------------------------------------
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
